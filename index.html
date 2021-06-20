@@ -5,11 +5,12 @@
     <title></title>
 
   </head>
-  <body>
-    <div id="container">
-
+  <body style="width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: pink; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <div style="display:flex; flex-direction: row;">
+      <div id="container" style="font-size: 300px;"></div>
+      <button id="button" style="background-color: transparent; border: none; cursor: pointer; font-size: 100px;">➕</button>
     </div>
-    <button id="button">increase count</button>
+    <div style="font-size: 40px;">Click the plus sign to increment count :)</div>
     <script src="./js/reducer.js" charset="utf-8"></script>
   </body>
 </html>
